@@ -5,6 +5,8 @@
 import _ from 'lodash';
 import "./style.css"
 import "./Hello.scss"
+import {area , circumference} from './js/circle' 
+import cube from './js/cube'
 
 function component() {
   let element = document.createElement('div');
@@ -16,3 +18,6 @@ function component() {
 }
 
 document.body.appendChild(component());
+console.log(area(10))
+console.log(circumference(5))
+console.log(cube(20))
